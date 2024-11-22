@@ -20,3 +20,5 @@ steps:
     -name: 啟動Docker 容器
      run: |
        docker run -d -p 8080:80 --name hello-world-container hello-world-imag
+Invoke-WebRequest -Uri https://github.com/actions/runner/releases/download/v2.320.0/actions-runner-win-x64-2.320.0.zip 
+    -OutFile actions-runner-win-x64-2.320.0.zip
