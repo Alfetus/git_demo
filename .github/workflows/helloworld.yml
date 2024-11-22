@@ -1,0 +1,9 @@
+yaml
+name: Deploy Hello World Web Page
+on:
+  push:
+    branches:
+      -main
+jobs:
+  deploy:
+    runs-on:self-hosted # 需設置GitHub Actions Runner 於本機
